@@ -7,7 +7,7 @@ function App() {
   const dispatch = useDispatch();
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div style={{ textAlign: 'center', marginTop: '50px', backgroundColor:"#282c34" ,color:"white" }}>
       <h1>Hello Redux with Vite 🚀</h1>
       <h2>Count: {count}</h2>
       <button onClick={() => dispatch(increment())}>
