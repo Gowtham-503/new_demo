@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DEPLOY_DIR = "C:\\react-preview\\dict"
+        DEPLOY_DIR = "C:\\react-preview\\dist"
     }
 
     stages {
