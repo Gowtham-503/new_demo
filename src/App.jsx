@@ -14,7 +14,7 @@ function App() {
         Increment
       </button>
       <button onClick={() => dispatch(decrement()) }> Decrease </button>
-      {/* <button onClick={() => dispatch(reset())} >reset</button> */}
+      <button onClick={() => dispatch(reset())} >reset</button>
     </div> 
   )
 }
